@@ -126,15 +126,16 @@ Este documento se proporciona de forma libre para su uso educativo. S
 	plt.ylabel('Amplitud')
 	plt.title('Señal ECG Filtrada y Picos R Identificados (20s)')
 	plt.legend()
-	plt.show()
- [![image.png](https://i.postimg.cc/2SjjxKqH/image.png)](https://postimg.cc/2VJfkT7v)
- ### resultados 
-[![image.png](https://i.postimg.cc/yNMz2QdC/image.png)](https://postimg.cc/7Cnc2N0K)
-
-	# Mostrar los intervalos R-R en los primeros 20 segundos
+	plt.show()# Mostrar los intervalos R-R en los primeros 20 segundos
 	print(f'Intervalos R-R (s) en los primeros 20 segundos: {rr_intervals_20s}')
 	print(f'Cantidad de picos significativos en los primeros 20 segundos: {len(peaks)}')
 
 	# Guardar los resultados en un archivo
 	np.save('rr_intervals_20s.npy', rr_intervals_20s)
 	print(f'Intervalos R-R de los primeros 20 segundos guardados en rr_intervals_20s.npy')
+
+ [![image.png](https://i.postimg.cc/2SjjxKqH/image.png)](https://postimg.cc/2VJfkT7v)
+ ### resultados 
+[![image.png](https://i.postimg.cc/yNMz2QdC/image.png)](https://postimg.cc/7Cnc2N0K)
+
+	
