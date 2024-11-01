@@ -137,5 +137,6 @@ Este documento se proporciona de forma libre para su uso educativo. S
  [![image.png](https://i.postimg.cc/2SjjxKqH/image.png)](https://postimg.cc/2VJfkT7v)
  ### resultados 
 [![image.png](https://i.postimg.cc/yNMz2QdC/image.png)](https://postimg.cc/7Cnc2N0K)
+[![image.png](https://i.postimg.cc/9Qw8sWqz/image.png)](https://postimg.cc/tsyNxGkH)
 
 	
