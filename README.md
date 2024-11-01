@@ -133,10 +133,18 @@ Este documento se proporciona de forma libre para su uso educativo. S
 	# Guardar los resultados en un archivo
 	np.save('rr_intervals_20s.npy', rr_intervals_20s)
 	print(f'Intervalos R-R de los primeros 20 segundos guardados en rr_intervals_20s.npy')
+ 
 
  [![image.png](https://i.postimg.cc/2SjjxKqH/image.png)](https://postimg.cc/2VJfkT7v)
+ 
  ### resultados 
+ 
 [![image.png](https://i.postimg.cc/yNMz2QdC/image.png)](https://postimg.cc/7Cnc2N0K)
+
 [![image.png](https://i.postimg.cc/9Qw8sWqz/image.png)](https://postimg.cc/tsyNxGkH)
+
+La transformada wavelet de Morlet es una herramienta matemática que permite analizar señales temporales en diferentes escalas. A diferencia de la transformada de Fourier, que descompone una señal en sus componentes de frecuencia, la transformada wavelet de Morlet utiliza una "wavelet" (onda) que es una función oscilatoria localizada en el tiempo.
+
+Esto significa que la transformada de Morlet puede capturar tanto la frecuencia como la localización temporal de las características en la señal. Es especialmente útil para señales no estacionarias, donde las características pueden cambiar a lo largo del tiempo.
 
 	
